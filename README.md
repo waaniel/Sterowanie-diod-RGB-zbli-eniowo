@@ -1,3 +1,3 @@
 # tup
 Projekt z Techniki Mikroprocesorowej
-Wprowadzono zmiany dnia 9.12.20
+Sterowanie koloru diod RGB za pomocą sensora ultradźwiękowego.
