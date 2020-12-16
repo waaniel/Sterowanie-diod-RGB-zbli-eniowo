@@ -1,4 +1,4 @@
 # tup
 Projekt z Techniki Mikroprocesorowej
 
-Sterowanie koloru diod RGB za pomocą sensora ultradźwiękowego.
+<h2> Sterowanie koloru diod RGB za pomocą sensora ultradźwiękowego. </h2>
