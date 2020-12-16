@@ -8,4 +8,5 @@ Projekt z Techniki Mikroprocesorowej
 
 <h2> Urządzenia wyjścia </h2>
 1. Ekran LCD
+
 2. Taśma LED RGB
