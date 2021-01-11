@@ -20,7 +20,7 @@ void setup()
 {  
   zakres(5, 10);
   zakres2(10, 15); 
-  /* zakres3(15, 20); 
+  zakres3(15, 20); 
   zakres4(20, 25); 
   zakres5(25, 30); 
   zakres6(25, 30); 
@@ -38,7 +38,8 @@ void setup()
   zakres18(85, 90); 
   zakres19(90, 95); 
   zakres20(95, 100); 
-  zakres21(100, 105)*/
+  zakres21(100, 105)
+  zakres22(105, 110);
   delay(10);
 } 
  
@@ -206,6 +207,24 @@ void zakres9(int a9, int b9)
     pixels.clear(); 
     for(int i=0; i<NUMPIXELS; i++) 
     pixels.setPixelColor(i, pixels.Color(0, 215, 15));
+    pixels.show(); 
+    pixels.show();   
+    } 
+    else 
+      {
+       pixels.show();  
+       pixels.clear();  
+      }
+}
+
+void zakres10(int a10, int b10) 
+{
+  int jakDaleko = zmierzOdleglosc();
+  if ((jakDaleko > a10) && (jakDaleko < b10)) 
+    {  
+    pixels.clear(); 
+    for(int i=0; i<NUMPIXELS; i++) 
+    pixels.setPixelColor(i, pixels.Color(0, 175, 55));
     pixels.show(); 
     pixels.show();   
     } 
