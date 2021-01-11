@@ -18,28 +18,21 @@ void setup()
  
   void loop()
 {  
-  zakres(5, 10);
-  zakres2(10, 15); 
-  zakres3(15, 20); 
-  zakres4(20, 25); 
-  zakres5(25, 30); 
-  zakres6(25, 30); 
-  zakres7(30, 35); 
-  zakres8(35, 40); 
-  zakres9(40, 45); 
-  zakres10(45, 50); 
-  zakres11(50, 55);
-  zakres12(55, 60); 
-  zakres13(60, 65); 
-  zakres14(65, 70); 
-  zakres15(70, 75); 
-  zakres16(75, 80); 
-  zakres17(80, 85); 
-  zakres18(85, 90); 
-  zakres19(90, 95); 
-  zakres20(95, 100); 
-  zakres21(100, 105)
-  zakres22(105, 110);
+  zakres(7, 14);
+  zakres2(14, 21);
+  zakres3(21, 28) 
+  zakres4(28, 35); 
+  zakres5(35, 42); 
+  zakres6(42, 49); 
+  zakres7(49, 56); 
+  zakres8(56, 63); 
+  zakres9(63, 70); 
+  zakres10(70, 77); 
+  zakres11(77, 84); 
+  zakres12(84, 91);
+  zakres13(91, 98); 
+  zakres14(98, 105); 
+  zakres15(105, 200);  
   delay(10);
 } 
  
@@ -225,6 +218,97 @@ void zakres10(int a10, int b10)
     pixels.clear(); 
     for(int i=0; i<NUMPIXELS; i++) 
     pixels.setPixelColor(i, pixels.Color(0, 175, 55));
+    pixels.show(); 
+    pixels.show();   
+    } 
+    else 
+      {
+       pixels.show();  
+       pixels.clear();  
+      }
+}
+
+void zakres11(int a11, int b11) 
+{
+  int jakDaleko = zmierzOdleglosc();
+  if ((jakDaleko > a11) && (jakDaleko < b11)) 
+    {  
+    pixels.clear(); 
+    for(int i=0; i<NUMPIXELS; i++) 
+    pixels.setPixelColor(i, pixels.Color(0, 135, 95));
+    pixels.show(); 
+    pixels.show();   
+    } 
+    else 
+      {
+       pixels.show();  
+       pixels.clear();  
+      }
+}
+
+void zakres12(int a12, int b12) 
+{
+  int jakDaleko = zmierzOdleglosc();
+  if ((jakDaleko > a12) && (jakDaleko < b12)) 
+    {  
+    pixels.clear(); 
+    for(int i=0; i<NUMPIXELS; i++) 
+    pixels.setPixelColor(i, pixels.Color(0, 95, 135));
+    pixels.show(); 
+    pixels.show();   
+    } 
+    else 
+      {
+       pixels.show();  
+       pixels.clear();  
+      }
+}
+
+void zakres13(int a13, int b13) 
+{
+  int jakDaleko = zmierzOdleglosc();
+  if ((jakDaleko > a13) && (jakDaleko < b13)) 
+    {  
+    pixels.clear(); 
+    for(int i=0; i<NUMPIXELS; i++) 
+    pixels.setPixelColor(i, pixels.Color(0, 55, 175));
+    pixels.show(); 
+    pixels.show();   
+    } 
+    else 
+      {
+       pixels.show();  
+       pixels.clear();  
+      }
+}
+
+void zakres14(int a14, int b14) 
+{
+  int jakDaleko = zmierzOdleglosc();
+  if ((jakDaleko > a14) && (jakDaleko < b14)) 
+    {  
+    pixels.clear(); 
+    for(int i=0; i<NUMPIXELS; i++) 
+    pixels.setPixelColor(i, pixels.Color(0, 15, 215));
+    pixels.show(); 
+    pixels.show();   
+    } 
+    else 
+      {
+       pixels.show();  
+       pixels.clear();  
+      }
+}
+
+
+void zakres15(int a15, int b15) 
+{
+  int jakDaleko = zmierzOdleglosc();
+  if ((jakDaleko > a15) && (jakDaleko < b15)) 
+    {  
+    pixels.clear(); 
+    for(int i=0; i<NUMPIXELS; i++) 
+    pixels.setPixelColor(i, pixels.Color(0, 0, 255));
     pixels.show(); 
     pixels.show();   
     } 
