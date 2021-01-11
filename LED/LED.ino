@@ -197,3 +197,21 @@ void zakres8(int a8, int b8)
        pixels.clear();  
       }
 }
+
+void zakres9(int a9, int b9) 
+{
+  int jakDaleko = zmierzOdleglosc();
+  if ((jakDaleko > a9) && (jakDaleko < b9)) 
+    {  
+    pixels.clear(); 
+    for(int i=0; i<NUMPIXELS; i++) 
+    pixels.setPixelColor(i, pixels.Color(0, 215, 15));
+    pixels.show(); 
+    pixels.show();   
+    } 
+    else 
+      {
+       pixels.show();  
+       pixels.clear();  
+      }
+}
