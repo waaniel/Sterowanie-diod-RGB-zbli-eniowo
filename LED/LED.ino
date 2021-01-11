@@ -11,7 +11,7 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 void setup() 
 {
   pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
-  Serial.begin (9600);
+  Serial.begin (10);
   pinMode(trigPin, OUTPUT); //Pin, do którego podłączymy trig jako wyjście
   pinMode(echoPin, INPUT); //a echo, jako wejście
 }
@@ -20,7 +20,7 @@ void setup()
 {  
   zakres(7, 14);
   zakres2(14, 21);
-  zakres3(21, 28) 
+  zakres3(21, 28); 
   zakres4(28, 35); 
   zakres5(35, 42); 
   zakres6(42, 49); 
@@ -40,9 +40,9 @@ void setup()
 {
   long czas, dystans;
   digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
+  delayMicroseconds(5000);
   digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(5000);
   digitalWrite(trigPin, LOW);
   czas = pulseIn(echoPin, HIGH);
   dystans = czas / 58;
