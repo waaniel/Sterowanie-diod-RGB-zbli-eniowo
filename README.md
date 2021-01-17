@@ -69,3 +69,14 @@ Serial.println(TCRT5000); //możliwość odczytu napięcia w monitorze portu sze
   }
 
 ```
+<h2> Film </h2>
+
+Działanie układu zaprezentowane jest za pomocą filmu, który znajduje się pod linkiem poniżej:
+
+https://drive.google.com/file/d/1R3Hw34tFh70wLWPtNBS8vzCyBnsDprTS/view?usp=sharing
+
+<h2> Podsumowanie </h2>
+
+Po wykonaniu powyższego układu użytkownik jest w stanie skonfigurować oraz dobrać odpowiednie barwy kolorów według swojego zapotrzebowania. Umożliwia to podświetlenie szafki, czy też innej przestrzenni na wybrany kolor po otwarciu/odsłonięciu czujnika. 
+Ponadto, w momencie programowania urządzenia, użytkownik jest w stanie dobrać odpowiednią wartość napięcia, która odebrana jest z kolektora fotorezytora. Dzięki niej możemy ustalić odległość od przeszkody. 
+Dodatkowo podczas projektowania układu zapoznano się z działaniem i pracą transoptora, a także sprawdzono jego wykorzystanie w praktyce.
