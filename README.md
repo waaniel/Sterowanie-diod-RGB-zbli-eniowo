@@ -15,6 +15,11 @@ Projekt z Techniki Mikroprocesorowej
 
 Układ realizuje podświetlenie przeszklonej szafki. Gdy drzwiczki szafki pozostają zamknięte, podświetlenie ma kolor zielony. W przypadku otworzenia drzwiczek, kolor zmienia się na biały w celu oświetlenia zawartości szafki. 
 
+<h2> Zdjęcia wykonanego układu </h2>
+![20210117_130117](https://user-images.githubusercontent.com/75728435/104843711-58b8a280-58cc-11eb-8096-9d2704928773.jpg)
+![20210117_130122](https://user-images.githubusercontent.com/75728435/104843715-5b1afc80-58cc-11eb-8138-5a958c41989e.jpg)
+
+
 <h2> Kod programu wraz z opisem</h2>
 
 ``` c++
