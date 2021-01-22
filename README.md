@@ -20,7 +20,7 @@ Układ realizuje podświetlenie przeszklonej szafki. Gdy drzwiczki szafki pozost
 ![20210117_130117](https://user-images.githubusercontent.com/75728435/104843711-58b8a280-58cc-11eb-8096-9d2704928773.jpg)
 ![20210117_130122](https://user-images.githubusercontent.com/75728435/104843715-5b1afc80-58cc-11eb-8138-5a958c41989e.jpg)
 
-
+![meme](https://user-images.githubusercontent.com/75728435/105518192-437eb200-5cd8-11eb-9604-28a9388eb253.jpg)
 <h2> Kod programu wraz z opisem</h2>
 
 ``` c++
